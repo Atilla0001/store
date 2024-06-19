@@ -1,0 +1,90 @@
+.salesText {
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 5%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.custom-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid transparent;
+    width: 25%;
+    margin: 40px;
+    background-color: rgba(201, 201, 201, 0.7) !important;
+    margin: 20px;
+    box-shadow: 8px 8px 10px rgb(211, 211, 211, 0.7) !important;
+    transition: transform 0.5s, box-shadow 0.3s;
+    border-radius: 30px !important;
+}
+
+.shoe {
+    transition: transform 0.7s;
+}
+
+.shoe:hover {
+    cursor: pointer;
+    transform: rotate(20deg) scale(1.0);
+}
+
+.shoeText {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.shoePrice {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(93, 93, 93);
+    display: flex;
+    justify-content: center;
+}
+
+.shoeRating {
+    font-size: 3.5rem !important;
+}
+
+.shoePoint {
+    font-size: 2.5rem !important;
+    font-weight: bold;
+}
+
+.shoeButton {
+    font-size: 15px !important;
+    background-color: rgb(238, 44, 212) !important;
+    color: white !important;
+    border-radius: 10px !important;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3) !important;
+    border: none;
+    padding: 10px 20px !important;
+    cursor: pointer !important;
+    transition: transform 0.3s, box-shadow 0.3s !important;
+}
+
+.shoeButton:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 8px 20px pink !important;
+}
+
+.custom-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card img {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.rating-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}

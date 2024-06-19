@@ -1,0 +1,24 @@
+.featuredAll {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 20%;
+}
+
+.featuredImage {
+    height: 500px;
+    margin-left: 35%;
+    cursor: pointer;
+    transition: transform 0.7s, filter 0.7s;
+}
+
+.featuredImage:hover {
+    transform: rotate(-30deg) scale(1.2);
+}
+
+.featuredText {
+    flex-direction: column;
+    display: flex;
+    align-items: start;
+    margin-left: -30%;
+}

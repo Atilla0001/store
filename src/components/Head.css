@@ -1,0 +1,117 @@
+.headAll {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headText {
+    margin-top: 20px;
+    font-size: 90px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.headRow {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.headImages {
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.video {
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
+}
+
+.headMid {
+    flex-direction: column;
+    margin-left: 50px;
+    display: flex;
+    width: 100%;
+
+}
+
+.headButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -60px;
+}
+
+.buttonPr {
+    background: linear-gradient(90deg, #00d5ff, #af03e3);
+    box-shadow: 0 3px 10px 0 white;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #00d5ff, #af03e3);
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+}
+
+.buttonPr:hover {
+    background: linear-gradient(90deg, #00d5ff, #af03e3);
+    box-shadow: 0 5px 10px 0 black;
+}
+
+.buttonPr:active {
+    background-color: white;
+    box-shadow: 0 2px white;
+    transform: translateY(2px);
+}
+
+.headShoe {
+    width: 750px;
+    height: 520px;
+    cursor: pointer;
+    transition: transform 0.7s, filter 0.7s;
+    margin-top: 40px;
+}
+
+.headShoe:hover {
+    transform: rotate(30deg) scale(1.2);
+    filter: brightness(1.1);
+}
+
+.headIcons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon {
+    font-size: 55px;
+    transition: font-size 0.7s, color 0.7s;
+    color: black;
+}
+
+.icon:hover {
+    color: white;
+    font-size: 70px;
+}
